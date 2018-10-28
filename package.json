@@ -1,0 +1,40 @@
+{
+  "name": "image-to-color-swatch-react",
+  "license": "MIT",
+  "version": "1.0.0",
+  "author": "RyLee Harrison",
+  "description": "Extract prominent colors from an image.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyleeHarrison/image-to-color-swatch-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RyleeHarrison/image-to-color-swatch-react/issues"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "2.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "homepage": "./"
+}
